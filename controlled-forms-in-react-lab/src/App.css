@@ -1,0 +1,40 @@
+/* src/App.css */
+.bookshelfDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formDiv {
+  margin-bottom: 20px;
+}
+
+.formDiv form div {
+  margin-bottom: 10px;
+}
+
+.formDiv form button {
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.formDiv form button:hover {
+  background-color: purple;
+}
+
+.bookCardsDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.bookCard {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
